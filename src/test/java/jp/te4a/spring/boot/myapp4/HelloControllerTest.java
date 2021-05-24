@@ -9,11 +9,7 @@ class HelloControllerTest {
 
 	@Test
 	public void test() {
-		HelloController helloController = new HelloController();
-		String expected = "this is Spring Boot sample.";
-		String actual = helloController.index();
-		
-		assertEquals(expected, actual);
+
 	}
 
 }
